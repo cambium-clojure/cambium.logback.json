@@ -1,6 +1,6 @@
 # cambium.logback.json - TODO and Change Log
 
-## [WIP] 0.4.1 / 2017-October-??
+## 0.4.1 / 2017-October-26
 
 - Update Jackson version to 2.9.0 (used by Cheshire 5.8.0)
 
