@@ -3,7 +3,7 @@
   :url "https://github.com/cambium-clojure/cambium.logback.json"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[cambium/cambium.logback.core "0.4.1"]
+  :dependencies [[cambium/cambium.logback.core "0.4.2-SNAPSHOT"]
                  [com.fasterxml.jackson.core/jackson-core     "2.9.0"]  ; in use by cheshire 5.8.0
                  [com.fasterxml.jackson.core/jackson-databind "2.9.0"]  ; in use by cheshire 5.8.0
                  [ch.qos.logback.contrib/logback-json-classic "0.1.5"]
