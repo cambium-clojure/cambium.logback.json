@@ -1,4 +1,4 @@
-(defproject cambium/cambium.logback.json "0.4.1"
+(defproject cambium/cambium.logback.json "0.4.2-SNAPSHOT"
   :description "JSON Logback backend for Cambium"
   :url "https://github.com/cambium-clojure/cambium.logback.json"
   :license {:name "Eclipse Public License"
@@ -21,5 +21,5 @@
              :c16 {:dependencies [[org.clojure/clojure  "1.6.0"]]}
              :c17 {:dependencies [[org.clojure/clojure  "1.7.0"]]}
              :c18 {:dependencies [[org.clojure/clojure  "1.8.0"]]}
-             :c19 {:dependencies [[org.clojure/clojure  "1.9.0-alpha20"]]}
+             :c19 {:dependencies [[org.clojure/clojure  "1.9.0"]]}
              :dln {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
