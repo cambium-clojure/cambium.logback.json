@@ -13,8 +13,8 @@
 
 
 (defn set-decoder!
-  "Given a fn `(fn [^String encoded]) -> any` or logback_bundle.json.ValueDecoder instance, set the global decoder for
-  the logback_bundle.json.FlatJsonLayout layout. The decoder is used for every MDC value ahead of the transformer."
+  "Given a fn `(fn [^String encoded]) -> any` or cambium.logback.json.ValueDecoder instance, set the global decoder for
+  the cambium.logback.json.FlatJsonLayout layout. The decoder is used for every MDC value ahead of the transformer."
   [decoder]
   (FlatJsonLayout/setGlobalDecoder
     ^ValueDecoder
@@ -25,9 +25,9 @@
 
 
 (defn set-transformer!
-  "Given a fn `(map<String, Object> m) -> map<String, Object>` or logback_bundle.json.MapTransformer instance, set the
-  global transformer for the logback_bundle.json.FlatJsonLayout layout. The map argument passed to the transformer is a
-  mutable java.util.Map instance; however the transformer also must return a java.util.Map as result."
+  "Given a fn `(map<String, Object> m) -> map<String, Object>` or cambium.logback.json.MapTransformer instance, set the
+  global transformer for the cambium.logback.json.FlatJsonLayout layout. The map argument passed to the transformer is
+  a mutable java.util.Map instance; however the transformer also must return a java.util.Map as result."
   [xformer]
   (FlatJsonLayout/setGlobalTransformer
     ^MapTransformer

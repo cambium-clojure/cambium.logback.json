@@ -4,7 +4,7 @@
 
 - Use cambium.logback.core `0.4.2`
   - [Todo] Use GA version
-- [Todo] Fix docstring: replace `logback-bundle` reference with `cambium.logback.json`
+- Fix docstring: replace `logback-bundle` reference with `cambium.logback.json`
   - `cambium.logback.json.flat-layout/set-decoder!`
   - `cambium.logback.json.flat-layout/set-transformer!`
 
