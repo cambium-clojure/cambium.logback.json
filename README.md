@@ -5,7 +5,7 @@ JSON [Logback](https://logback.qos.ch/) backend for Cambium.
 
 ## Clojars coordinates
 
-`[cambium/cambium.logback.json "0.4.2-SNAPSHOT"]`
+`[cambium/cambium.logback.json "0.4.2"]`
 
 
 ## Documentation
@@ -27,3 +27,4 @@ Copyright © 2017-2018 Shantanu Kumar (kumar.shantanu@gmail.com, shantanu.kumar@
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+

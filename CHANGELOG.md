@@ -1,6 +1,6 @@
 # cambium.logback.json - TODO and Change Log
 
-## [WIP] 0.4.2 / 2018-March-??
+## 0.4.2 / 2018-March-22
 
 - Use cambium.logback.core `0.4.2`
 - Fix docstring: replace `logback-bundle` reference with `cambium.logback.json`
