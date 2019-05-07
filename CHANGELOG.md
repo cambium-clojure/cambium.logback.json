@@ -2,8 +2,8 @@
 
 ## [WIP] 0.4.3 / 2019-May-??
 
-- [Todo] Use cambium.logback.core `0.4.3`
-- [Todo] Upgrade Jackson to version 2.9.6 (used by Cheshire 5.8.1)
+- Use cambium.logback.core `0.4.3`
+- Upgrade Jackson to version `2.9.6` (used by Cheshire 5.8.1)
 
 
 ## 0.4.2 / 2018-March-22
