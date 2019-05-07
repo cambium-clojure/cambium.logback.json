@@ -1,6 +1,6 @@
 # cambium.logback.json - TODO and Change Log
 
-## [WIP] 0.4.3 / 2019-May-??
+## 0.4.3 / 2019-May-07
 
 - Use cambium.logback.core `0.4.3`
 - Upgrade Jackson to version `2.9.6` (used by Cheshire 5.8.1)
