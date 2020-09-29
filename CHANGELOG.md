@@ -1,5 +1,12 @@
 # cambium.logback.json - TODO and Change Log
 
+## [WIP] 0.4.4 / 2020-September-??
+
+- [Todo] Drop support for Clojure `1.5.x`
+- [Todo] Update cambium.logback.core to version `0.4.4`
+- [Todo] Update Jackson to version `2.10.2` (used by Cheshire `5.10.0`)
+
+
 ## 0.4.3 / 2019-May-07
 
 - Use cambium.logback.core `0.4.3`
