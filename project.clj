@@ -13,15 +13,14 @@
   :global-vars {*warn-on-reflection* true
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
-  :profiles {:provided {:dependencies [[org.clojure/clojure  "1.5.1"]]}
-             :dev {:dependencies [[cambium/cambium.core "0.9.3"]  ; pulls in [org.slf4j/slf4j-api "1.7.26"]
-                                  [cambium/cambium.codec-simple "0.9.3"]]
+  :profiles {:provided {:dependencies [[org.clojure/clojure  "1.6.0"]]}
+             :dev {:dependencies [[cambium/cambium.core "1.0.0"]  ; pulls in [org.slf4j/slf4j-api "1.7.30"]
+                                  [cambium/cambium.codec-simple "1.0.0"]]
                    :jvm-opts ["-Denable.dummy=true"]}
-             :c05 {:dependencies [[org.clojure/clojure  "1.5.1"]]}
              :c06 {:dependencies [[org.clojure/clojure  "1.6.0"]]}
              :c07 {:dependencies [[org.clojure/clojure  "1.7.0"]]}
              :c08 {:dependencies [[org.clojure/clojure  "1.8.0"]]}
              :c09 {:dependencies [[org.clojure/clojure  "1.9.0"]]}
              :c10 {:dependencies [[org.clojure/clojure  "1.10.1-beta2"]]}
              :dln {:jvm-opts ["-Dclojure.compiler.direct-linking=true"]}}
-  :aliases {"test-all" ["with-profile" "c05,dev:c06,dev:c07,dev:c08,dev:c09,dev:c10,dev" "test"]})
+  :aliases {"test-all" ["with-profile" "c06,dev:c07,dev:c08,dev:c09,dev:c10,dev" "test"]})
