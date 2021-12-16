@@ -1,11 +1,11 @@
-(defproject cambium/cambium.logback.json "0.4.4"
+(defproject cambium/cambium.logback.json "0.4.5-SNAPSHOT"
   :description "JSON Logback backend for Cambium"
   :url "https://github.com/cambium-clojure/cambium.logback.json"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[cambium/cambium.logback.core "0.4.4"]
-                 [com.fasterxml.jackson.core/jackson-core     "2.10.2"]  ; in use by cheshire 5.10.0
-                 [com.fasterxml.jackson.core/jackson-databind "2.10.2"]  ; in use by cheshire 5.10.0
+  :dependencies [[cambium/cambium.logback.core "0.4.5"]
+                 [com.fasterxml.jackson.core/jackson-core     "2.12.4"]  ; in use by cheshire 5.10.1
+                 [com.fasterxml.jackson.core/jackson-databind "2.12.4"]  ; in use by cheshire 5.10.1
                  [ch.qos.logback.contrib/logback-json-classic "0.1.5"]
                  [ch.qos.logback.contrib/logback-jackson      "0.1.5"]]
   :java-source-paths ["java-src"]
@@ -14,7 +14,7 @@
                 *assert* true
                 *unchecked-math* :warn-on-boxed}
   :profiles {:provided {:dependencies [[org.clojure/clojure  "1.6.0"]]}
-             :dev {:dependencies [[cambium/cambium.core "1.0.0"]  ; pulls in [org.slf4j/slf4j-api "1.7.30"]
+             :dev {:dependencies [[cambium/cambium.core "1.1.1"]  ; pulls in [org.slf4j/slf4j-api "1.7.32"]
                                   [cambium/cambium.codec-simple "1.0.0"]]
                    :jvm-opts ["-Denable.dummy=true"]}
              :c06 {:dependencies [[org.clojure/clojure  "1.6.0"]]}
