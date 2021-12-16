@@ -4,8 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[cambium/cambium.logback.core "0.4.5"]
-                 [com.fasterxml.jackson.core/jackson-core     "2.10.2"]  ; in use by cheshire 5.10.0
-                 [com.fasterxml.jackson.core/jackson-databind "2.10.2"]  ; in use by cheshire 5.10.0
+                 [com.fasterxml.jackson.core/jackson-core     "2.12.4"]  ; in use by cheshire 5.10.1
+                 [com.fasterxml.jackson.core/jackson-databind "2.12.4"]  ; in use by cheshire 5.10.1
                  [ch.qos.logback.contrib/logback-json-classic "0.1.5"]
                  [ch.qos.logback.contrib/logback-jackson      "0.1.5"]]
   :java-source-paths ["java-src"]
