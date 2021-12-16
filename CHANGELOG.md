@@ -1,6 +1,6 @@
 # cambium.logback.json - TODO and Change Log
 
-## [WIP] 0.4.5 / 2021-December-16
+## 0.4.5 / 2021-December-16
 
 - Update cambium.logback.core to version 0.4.5
 - Update Jackson to version `2.12.4` (used by Cheshire 5.10.1)
